@@ -43,10 +43,12 @@ q:before, q:after {
     content: none;
 }
 
-/* remember to define visible focus styles! 
+/* NOTE: this is customized for the photo browser 
+lab--change this to something more appropriate
+if you reuse this for a different project */
 :focus {
-    outline: ?????;
-} */
+    opacity: 0.7;
+}
 
 /* remember to highlight inserts somehow! */
 ins {
