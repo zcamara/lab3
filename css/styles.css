@@ -42,8 +42,6 @@ h1 {
 	font-size: 200%;
 	color: #EEEDEA;
 	line-height: 60px;
-	-webkit-animation: pulse 5s infinite;
-	animation: pulse 5s infinite;
 }
 
 header img {
@@ -59,6 +57,8 @@ header img:hover {
 	-ms-transition: all 0.2s ease;
 	transition: all 0.2s ease;
 	opacity: 1;
+	-webkit-animation: pulse 5s infinite;
+	animation: pulse 5s infinite;
 }
 
 figure {
@@ -90,5 +90,10 @@ figure:hover {
 	-moz-transition: all 0.2s ease;
 	-o-transition: all 0.2s ease;
 	-ms-transition: all 0.2s ease;
-	transition: all 0.2s ease;
+	transition: all 0.2s ease;	
+	-webkit-transform: scale(1.5) rotate(-5deg);
+	-moz-transform: scale(1.5) rotate(-5deg);
+	-o-transform: scale(1.5) rotate(-5deg);
+	-ms-transform: scale(1.5) rotate(-5deg);
+	transform: scale(1.5) rotate(-5deg);
 }
